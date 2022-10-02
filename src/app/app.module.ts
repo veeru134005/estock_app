@@ -13,6 +13,7 @@ import { SignupformComponent } from './signupform/signupform.component';
 import { LoginComponent } from './login/login.component';
 import { StockComponent } from './stock/stock.component';
 import { CompanyComponent } from './company/company.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { CompanyComponent } from './company/company.component';
     AppRoutingModule,
     ReactiveFormsModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

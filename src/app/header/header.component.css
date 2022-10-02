@@ -1,3 +1,7 @@
 .bg-dark {
     background-color: #343A9C !important;
 }
+.navBardemoBasicUsage md-content .ext-content {
+    padding: 50px;
+    margin: 20px;
+    background-color: #FFF2E0; }

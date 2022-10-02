@@ -11,7 +11,7 @@ const routes: Routes = [
 {path:'dashboard',component:DashboardComponent},
 {path:'signup',component:SignupformComponent},
 {path:'addstock',component:StockComponent},
-{path:'create-sector',component:CompanyComponent}
+{path:'create-company',component:CompanyComponent}
 
 ];
 
